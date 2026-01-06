@@ -3,37 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A Revolução da IA - Onde você se encaixa em 2026?</title>
+
+    <!-- SEO Meta Tags -->
+    <title>
+      IA Sem Enrolação - Domine Inteligência Artificial em 2026 | R$ 9,97
+    </title>
+    <meta
+      name="description"
+      content="Aprenda a usar IA do jeito certo com o Framework C.C.P.O. Automação, prompts profissionais e ferramentas no-code. Garantia de 7 dias. Apenas R$ 9,97!"
+    />
+    <meta
+      name="keywords"
+      content="inteligência artificial, IA, ChatGPT, prompts, automação, framework CCPO, curso IA, ebook IA"
+    />
+    <meta name="author" content="IA Master 2026" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="IA Sem Enrolação - Domine Inteligência Artificial em 2026"
+    />
+    <meta
+      property="og:description"
+      content="De amador a orquestrador digital. Aprenda prompts profissionais, automação e ferramentas de IA. Apenas R$ 9,97!"
+    />
+    <meta property="og:image" content="/ebook_mockup_3d_1767700953775.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="IA Sem Enrolação - Domine Inteligência Artificial em 2026"
+    />
+    <meta
+      name="twitter:description"
+      content="De amador a orquestrador digital. Aprenda prompts profissionais, automação e ferramentas de IA. Apenas R$ 9,97!"
+    />
+    <meta name="twitter:image" content="/ebook_mockup_3d_1767700953775.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <script>
       tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
-              sans: ['Inter', 'sans-serif'],
+              sans: ["Inter", "sans-serif"],
             },
             colors: {
               brand: {
-                dark: '#01060a', // Deeper, slightly teal-tinted black
-                surface: '#05111a', // Dark Teal/Grey surface
-                accent: '#14b8a6', // Teal 500 (Primary Brand Color)
-                glow: '#34d399', // Emerald 400 (The bright green in the image)
-                highlight: '#2dd4bf', // Teal 400
-              }
+                dark: "#01060a", // Deeper, slightly teal-tinted black
+                surface: "#05111a", // Dark Teal/Grey surface
+                accent: "#14b8a6", // Teal 500 (Primary Brand Color)
+                glow: "#34d399", // Emerald 400 (The bright green in the image)
+                highlight: "#2dd4bf", // Teal 400
+              },
             },
             animation: {
-              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            }
-          }
-        }
-      }
+              "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+            },
+          },
+        },
+      };
     </script>
     <style>
       body {
         background-color: #01060a;
         color: #f8fafc;
-        background-image: radial-gradient(circle at 100% 0%, #0d2b36 0%, transparent 25%);
+        background-image: radial-gradient(
+          circle at 100% 0%,
+          #0d2b36 0%,
+          transparent 25%
+        );
       }
       .glass-card {
         background: rgba(5, 20, 28, 0.6);
@@ -44,25 +89,55 @@
         border-color: rgba(52, 211, 153, 0.3); /* Green border on hover */
       }
       .text-gradient {
-        background: linear-gradient(to right, #2dd4bf, #4ade80); /* Teal to Green */
+        background: linear-gradient(
+          to right,
+          #2dd4bf,
+          #4ade80
+        ); /* Teal to Green */
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+      @keyframes slide-up {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+      .animate-slide-up {
+        animation: slide-up 0.3s ease-out;
+      }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    <script type="importmap">
+      {
+        "imports": {
+          "react/": "https://esm.sh/react@^19.2.3/",
+          "react": "https://esm.sh/react@^19.2.3",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+          "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>

@@ -25,3 +25,23 @@ export interface FaqItem {
   question: string;
   answer: string;
 }
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  avatar: string;
+  rating: number;
+  text: string;
+}
+
+export interface Guarantee {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+}
+
+export interface TargetAudience {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+}
